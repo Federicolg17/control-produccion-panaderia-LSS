@@ -1,0 +1,15 @@
+# ─────────────────────────────────────────────────────────
+#  requirements.txt · Panadería LSS · Sistema de Registro
+# ─────────────────────────────────────────────────────────
+
+# Framework principal
+streamlit>=1.35.0
+
+# Cliente de Google Sheets (API pura, sin overhead)
+gspread>=6.1.0
+
+# Autenticación OAuth2 con cuenta de servicio
+google-auth>=2.29.0
+
+# Manipulación de datos
+pandas>=2.2.0
